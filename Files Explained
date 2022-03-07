@@ -12,4 +12,13 @@ district69.sql - When joining the extracted features it was found that 8 rows ha
     to district 69 which does not contain any information within the district table. As there is no basis to make any assumptions for how to make 
     accurate or fair imputations, and the percentage of records is small compared to the sample, they were excluded from the final version of finData.csv.
     
-niafrate - 820(EDA).ipynb - Exploritory data analysis of finData. Visualizations for each variable. Attempting to create correlation plot as well. 
+niafrate - 820(EDA).ipynb - Exploritory data analysis of finData. Visualizations for each variable.
+
+niafrate 820 - data preprocessing.ipynb - Cleaning up some features, encoding qualitative attributes, correlation matrix and plot. Exported the altered dataframe
+                                            to .csv on local drive to make it easier for modeling. 
+                                            
+berka_cleaned.csv - The dataframe from preprocessing notebook exported to .csv. Models will be run on this file imported to python notebooks. 
+                                            
+niafrate 820 - (SVM).ipynb - First run of SVM classifier on berka_cleaned.csv, with and without SMOTE applied. 
+
+
