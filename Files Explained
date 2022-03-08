@@ -21,4 +21,8 @@ berka_cleaned.csv - The dataframe from preprocessing notebook exported to .csv. 
                                             
 niafrate 820 - (SVM).ipynb - First run of SVM classifier on berka_cleaned.csv, with and without SMOTE applied. 
 
+niafrate 820 - (Decision Tree).ipynb - First run of Decision Tree classifier on berka_cleaned.csv, with and without SMOTE applied.
+
+niafrate 820 - (RF).ipynb - First run of RF classifier on berka_cleaned.csv, with and without SMOTE applied.
+
 
